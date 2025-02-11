@@ -1,3 +1,4 @@
+
 let boxes = document.querySelectorAll(".box");
 let resetBtn = document.querySelector(".end");
 let newGameBtn = document.querySelector("#new");
@@ -65,7 +66,7 @@ const enableBoxes = () =>{
 }
 
 const showWinner = (winner) =>{
-    msg.innerText = `Congratualation, Winner is ${winner}`;
+    msg.innerText = `Winner is ${winner}`;
     msgContainer.classList.remove("hide");
     disableBoxes();
 
@@ -86,6 +87,12 @@ const checkWinner = () =>{
         }
      }
 };
+
+newGameBtn.addEventListener("click",resetGame);
+resetBtn.addEventListener("click",resetGame);
+
+
+
 
 newGameBtn.addEventListener("click",resetGame);
 resetBtn.addEventListener("click",resetGame);
