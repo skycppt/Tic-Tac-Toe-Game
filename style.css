@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: pink;
+}
+
+h1{
+    text-align: center;
+    color: rgb(84, 26, 199);
+    padding: 50px ;
+}
+
+.board{
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 40vmin;
+    width: 50vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+ 
+}
+
+.box{
+    background-color : #ffffc7 ;
+    height: 15vmin;
+    width : 15vmin;
+    border-radius: 25%;
+    border-spacing: 0cap;
+    border : none;
+    font-size: 8vmin;
+    color: red;
+}
+
+.cent{
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.end{
+    height: 10vmin;
+    width : 28vmin;
+    border-radius: 1rem;
+    font-size: 2.5rem;
+    color: brown;
+    background-color: aquamarine;
+}
+
+#new{
+    height: 10vmin;
+    width : 28vmin;
+    border-radius: 1rem;
+    font-size: 2rem;
+    color: brown;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-container{
+    height : 100vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap : 4rem;
+}
+
+#msg{
+    color: rgb(84, 12, 148);
+    font-size: 3.5rem;
+
+}
+
+.hide{
+    display: none;
+}
+
